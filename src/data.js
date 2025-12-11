@@ -1,4 +1,7 @@
-import HeroImage from "/assets/hero-img.webp";
+// Hapus semua import, langsung pakai string path
+
+// Hero Image
+const HeroImage = "/assets/hero-img.webp";
 
 const Image = {
   HeroImage,
@@ -6,25 +9,26 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
-import Tools13 from "/assets/tools/firebase.png";
-import Tools14 from "/assets/tools/html.png";
-import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/ts.png";
-import Tools17 from "/assets/tools/php.png";
-import Tools18 from "/assets/tools/vite.png";
-import Tools19 from "/assets/tools/mysql.png";
+// Tools Images - langsung string
+const Tools1 = "/assets/tools/vscode.png";
+const Tools2 = "/assets/tools/reactjs.png";
+const Tools3 = "/assets/tools/nextjs.png";
+const Tools4 = "/assets/tools/tailwind.png";
+const Tools5 = "/assets/tools/bootstrap.png";
+const Tools6 = "/assets/tools/js.png";
+const Tools7 = "/assets/tools/nodejs.png";
+const Tools8 = "/assets/tools/github.png";
+const Tools9 = "/assets/tools/ai.png";
+const Tools10 = "/assets/tools/canva.png";
+const Tools11 = "/assets/tools/figma.png";
+const Tools12 = "/assets/tools/kotlin.png";
+const Tools13 = "/assets/tools/firebase.png";
+const Tools14 = "/assets/tools/html.png";
+const Tools15 = "/assets/tools/css.png";
+const Tools16 = "/assets/tools/ts.png";
+const Tools17 = "/assets/tools/php.png";
+const Tools18 = "/assets/tools/vite.png";
+const Tools19 = "/assets/tools/mysql.png";
 
 export const listTools = [
   {
@@ -162,12 +166,13 @@ export const listTools = [
   },
 ];
 
-import Learnnova from "/assets/proyek/learnnova.jpg";
-import Siomay from "/assets/proyek/siomay.jpg";
-import Koinflix from "/assets/proyek/koinflix.jpg";
-import Kunriayah from "/assets/proyek/kun.jpg";
-import Antribank from "/assets/proyek/antribank.jpg";
-import Dzunnur from "/assets/proyek/dzunnur.jpg";
+// Project Images - langsung string
+const Learnnova = "/assets/proyek/learnnova.jpg";
+const Siomay = "/assets/proyek/siomay.jpg";
+const Koinflix = "/assets/proyek/koinflix.jpg";
+const Kunriayah = "/assets/proyek/kun.jpg";
+const Antribank = "/assets/proyek/antribank.jpg";
+const Dzunnur = "/assets/proyek/dzunnur.jpg"; // HAPUS /public dari path!
 
 export const listProyek = [
   {
